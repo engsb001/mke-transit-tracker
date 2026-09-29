@@ -6,7 +6,7 @@
 
 # 
 
-# > \*\*Note:\*\* Eastside Urbanism's tracker is publicly available and updated a little more frequently than this one. If you just want a working display without any customization, their hosted version is a great starting point.
+# \*\*Note:\*\* Eastside Urbanism's tracker is publicly available and updated a little more frequently than this one. If you just want a working display without any customization, their hosted version is a great starting point.
 
 # 
 
@@ -148,7 +148,7 @@
 
 # \# https://realtime.ridemcts.com/bustime/home.jsp
 
-# \# Create an account, login and click "My API" on the top header bar, then request an API Key.
+# 
 
 # CIRCUITPY\_WIFI\_SSID = "your\_wifi\_network"
 
@@ -162,7 +162,7 @@
 
 # 
 
-# A free API key can be created by registering at \[realtime.ridemcts.com/bustime/home.jsp](https://realtime.ridemcts.com/bustime/home.jsp). Stop IDs can be found on Google Maps or MCTS' website.
+# A free API key can be created at \[realtime.ridemcts.com/bustime/home.jsp](https://realtime.ridemcts.com/bustime/home.jsp) — create an account, log in, click "My API" in the top header bar, and request a key. Stop IDs can be found on the MCTS website or via the API directly.
 
 # 
 
