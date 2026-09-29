@@ -4,6 +4,8 @@ A DIY real-time bus arrival display built around an Adafruit Matrix Portal S3 an
 
 **Note:** Eastside Urbanism's tracker is publicly available and updated a little more frequently than this one. If you just want a working display without any customization, their hosted version is a great starting point.
 
+To that end... [Here's their build material sheet](https://transit-tracker.eastsideurbanism.org/docs/build-guide/materials). Waveshare offers a coated version that gives some better resistance to the elements, but a broader redesign might be best if looking to put this thing outdoors.
+
 ---
 
 ## What's in this repo
@@ -99,6 +101,7 @@ On reboot, the display should flash to life and begin connecting to WiFi. If a v
 - **No predictions showing** — verify your API key and stop ID are correct. You can test the API directly in a browser: `https://realtime.ridemcts.com/bustime/api/v3/getpredictions?key=YOUR_KEY&stpid=YOUR_STOP&format=json`
 - **`settings.toml` not found error** — make sure you renamed `settings.example.toml` to `settings.toml` (not just edited the example file).
 - **Missing library error** — copy the missing `.mpy` file from the CircuitPython library bundle into the `lib/` folder on CIRCUITPY.
+- **The LED Displays use Swapped green and blue LED Channels. If you want a specific color, keep this in mind. (ex. a normal green color in #RGB hex would be #00FF00. In our Matrix code, we would use #0000FF.)
 
 ---
 
