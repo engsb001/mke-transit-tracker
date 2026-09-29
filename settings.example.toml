@@ -1,0 +1,14 @@
+# SPDX-FileCopyrightText: 2023 Adafruit Industries
+#
+# SPDX-License-Identifier: MIT
+
+# This is where you store the credentials necessary for your code.
+# The transit tracker includes Wifi Credentials, a bus API key, and a comma separated bus stop ID
+# A Free Bus API key can be created by creating an account at the following:
+# https://realtime.ridemcts.com/bustime/home.jsp
+# then going to My API on the top bar after logging in and requesting an ID. 
+Alternatively, a member may be able to share that if it's too big of a lift for you.
+#CIRCUITPY_WIFI_SSID = "puppy dispensary"
+#CIRCUITPY_WIFI_PASSWORD = "oops-all-dogs"
+#BUS_API_KEY = "apiKey1234567890"
+#BUS_STOP_ID = "3760,3794,3925,4069,55,14"
